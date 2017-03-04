@@ -1,0 +1,37 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+
+* { 
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Monserat', 'Open Sans', sans-serif;
+}
+
+div > ul {
+	float: left;
+	list-style-type: none;
+}
+
+
+div > ul > li {
+    list-style: none;
+    width: auto;
+    display:  inline-block;
+}
+
+div > ul> li > img {
+	width: 600px;
+	height: auto;
+	display: block;
+}
+
+#carousel {
+	height: 400px;
+	width: 600px;
+	border: 2px solid red;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
